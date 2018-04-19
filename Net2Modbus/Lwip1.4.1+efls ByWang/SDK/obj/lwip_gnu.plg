@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\mister-wang\Desktop\git\Net2Modbus\Lwip1.4.1+efls ByWang\SDK\lwip_gnu.uvproj
+Project File Date:  04/16/2018
+
+<h2>Output:</h2>
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(253): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(310): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(329): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(425): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(426): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(427): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(294): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(295): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(296): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(797): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57076 RO-data=756 RW-data=496 ZI-data=50760  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
